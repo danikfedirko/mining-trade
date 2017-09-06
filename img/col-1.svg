@@ -1,0 +1,28 @@
+<svg width="76" height="283" viewBox="0 0 76 283" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Group</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-207 -4305)">
+<g id="Group">
+<g id="Rectangle 9">
+<use xlink:href="#path0_fill" transform="translate(207.5 4503.48)" fill="url(#paint0_linear)"/>
+</g>
+<g id="Rectangle 9">
+<mask id="mask0_outline_ins">
+<use xlink:href="#path1_fill" fill="white" transform="translate(207.5 4305.96)"/>
+</mask>
+<g mask="url(#mask0_outline_ins)">
+<use xlink:href="#path2_stroke_2x" transform="translate(207.5 4305.96)" fill="#07DA91"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(4.59243e-15 84.4767 -75 5.17271e-15 75 -5.17271e-15)">
+<stop offset="0.038674" stop-color="#07DA91" stop-opacity="0.2"/>
+<stop offset="0.994475" stop-color="#07DA91"/>
+</linearGradient>
+<path id="path0_fill" d="M 0 5C 0 2.23858 2.23858 0 5 0L 70 0C 72.7614 0 75 2.23858 75 5L 75 79.4767C 75 82.2381 72.7614 84.4767 70 84.4767L 5 84.4767C 2.23858 84.4767 0 82.2381 0 79.4767L 0 5Z"/>
+<path id="path1_fill" d="M 0 5C 0 2.23858 2.23858 0 5 0L 70 0C 72.7614 0 75 2.23858 75 5L 75 277C 75 279.761 72.7614 282 70 282L 5 282C 2.23858 282 0 279.761 0 277L 0 5Z"/>
+<path id="path2_stroke_2x" d="M 5 1L 70 1L 70 -1L 5 -1L 5 1ZM 74 5L 74 277L 76 277L 76 5L 74 5ZM 70 281L 5 281L 5 283L 70 283L 70 281ZM 1 277L 1 5L -1 5L -1 277L 1 277ZM 5 -1C 1.68629 -1 -1 1.68629 -1 5L 1 5C 1 2.79086 2.79086 1 5 1L 5 -1ZM 70 1C 72.2091 1 74 2.79086 74 5L 76 5C 76 1.68629 73.3137 -1 70 -1L 70 1ZM 74 277C 74 279.209 72.2091 281 70 281L 70 283C 73.3137 283 76 280.314 76 277L 74 277ZM 5 281C 2.79086 281 1 279.209 1 277L -1 277C -1 280.314 1.68629 283 5 283L 5 281Z"/>
+</defs>
+</svg>

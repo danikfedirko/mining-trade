@@ -1,4 +1,10 @@
 /*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&subset=cyrillic');
+@font-face {
+  font-family: 'Futura Bold';
+  font-weight: 700;
+  src: url('fonts/FuturaPTBold.otf');
+}
 
 html {
     color: #222;
@@ -6,8 +12,9 @@ html {
     line-height: 1.4;
 }
 body{
-  color:#4a0d67;
-  background-color: #f7f7f7
+  background-color: #F5F9FB;
+  font-family: 'Roboto';
+  overflow-x: hidden;
 }
 ::-moz-selection {
     background: #b3d4fc;
@@ -59,19 +66,152 @@ a{
 /*header*/
 header{
   height: 100vh;
-  background-image: url('../img/header-bg.jpg');
+  background-image: url('../img/header-bg.png');
   background-size: cover;
   background-position: center;
+  color: #fff;
 }
-.overlay{
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
+nav.navbar{
+  padding-top: 2em !important
 }
 nav a{
-  color: #fff
+  color: #fff;
+  font-weight: 400;
+  font-size: 16px;
 }
+.overlay{
+  height: 100vh;
+  background-image: linear-gradient(0deg, rgba(41, 8, 52, 1),rgba(0, 0, 0, 0.7) 25%);
+}
+img.logo{
+  height: 55px;
+}
+.header-title{
+  margin: 1em auto;
+    font-family: 'Futura Bold';
+    font-size: 3.5em;
+}
+.title{
+  font-weight: 400;
+  line-height: 1.4em;
+}
+.text{
+  opacity: .8;
+  margin-top: 1em;
+}
+.clock-block{
+  padding: 0 1em;
+}
+#clockdiv{
+	font-family: sans-serif;
+	color: #fff;
+	display: inline-block;
+	font-weight: 100;
+	text-align: center;
+	font-size: 30px;
+  margin: 1em auto;
+}
+
+#clockdiv > div{
+	padding:0 10px;
+	border-radius: 3px;
+	background: rgba(0, 0, 0, 0.5);
+	display: inline-block;
+}
+#clockdiv .dots{
+  vertical-align: top;
+  background: transparent !important;
+  color: #07DA91
+}
+#clockdiv div > span{
+  font-size: 2em;
+	border-radius: 3px;
+	background: none;
+	display: inline-block;
+  font-family: 'Futura Bold'
+}
+
+.smalltext{
+	margin-top: -5px;
+  padding-bottom: 2px;
+	font-size: 12px;
+  opacity: .8
+}
+header .btn-default{
+  width: 100%;
+}
+.btn-default{
+  background-color: #07DA91;
+  border-radius: 5px;
+  padding:0.8rem;
+}
+
+/* About section */
+section .title{
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+section{
+  padding-bottom: 3em;
+}
+.card{
+  border: 0;
+box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.05);
+}
+.input-number{
+  font-family: 'Futura Bold';
+  color: #07DA91;
+  font-size: 3em;
+}
+.input-number::placeholder{
+    color: #07DA91;
+}
+.input-number{
+  width: 100px;
+  height: 1.5em;
+  border: 2px solid #E6F7FF;
+  padding: 0 5px;
+}
+.exchange-bar div{
+  margin: 0 1em;
+}
+.exchange-bar .text b{
+  font-size: 2em;
+  color: #181818;
+  font-weight: 400;
+}
+.exchange .card-body{
+  padding: 1em 3em;
+}
+.exchange td{
+  border: none !important;
+  color: #696969;
+}
+.exchange tr td:nth-child(2),.exchange tr td:nth-child(3){
+  font-size: 24px;
+}
+.number{
+  color: #07DA91
+}
+
+
+/* Second section with bg*/
+.bg-2{
+  padding-top: 2em;
+  color: #fff;
+  background-image: url('../img/bg-2.png');
+  background-size: cover;
+}
+.text-border{
+  border: 1px solid #07DA91;
+box-sizing: border-box;
+border-radius: 5px;
+width: 40%;
+margin: auto;
+margin-top: 20px;
+padding: 0.5rem 0;
+}
+
 /* ==========================================================================
    Media Queries
    ========================================================================== */
