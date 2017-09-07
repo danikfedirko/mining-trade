@@ -24,7 +24,7 @@
 // Place any jQuery/helper plugins in here.
 
 //countdown
-var countDownDate = new Date("Oct 1, 2017 00:00:00").getTime();
+var countDownDate = new Date("Sep 10, 2017 00:00:00").getTime();
 var x = setInterval(function() {
   var now = new Date().getTime();
   var distance = countDownDate - now;

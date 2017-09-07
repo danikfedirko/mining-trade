@@ -247,7 +247,6 @@ section {
 
 .exchange td {
   border: none !important;
-  color: #696969;
 }
 
 .exchange tr td:nth-child(2), .exchange tr td:nth-child(3) {
