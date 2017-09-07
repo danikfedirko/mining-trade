@@ -380,7 +380,7 @@ Modules - reusable parts of our design
 .cd-container {
   /* this class is used to give a max-width to the element it is applied to, and center it horizontally when it reaches that max-width */
   width: 90%;
-  max-width: 768px;
+  max-width: 770px;
   margin: 0 auto;
 }
 .cd-container::after {
@@ -409,11 +409,11 @@ Modules - reusable parts of our design
   /*width: 1px;*/
   /*background: #07DA91;*/
 /*}*/
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 770px) {
   #cd-timeline {
     margin-top: 3em;
     margin-bottom: 3em;
-      height: 1700px;
+      height: 1590px;
   }
   #cd-timeline::before {
     left: 50%;
@@ -436,7 +436,7 @@ Modules - reusable parts of our design
 .cd-timeline-block:last-child {
   margin-bottom: 0;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 770px) {
   .cd-timeline-block {
     margin: 4em 0;
   }
@@ -457,7 +457,7 @@ Modules - reusable parts of our design
   border-radius: 50%;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 770px) {
   .cd-timeline-img {
     position: absolute;
     width: 60px;
@@ -580,7 +580,7 @@ Modules - reusable parts of our design
   border: 7px solid transparent;
   border-right: 7px solid #ffffff;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 770px) {
   .cd-timeline-content h2 {
     font-size: 28px;
   }
@@ -590,10 +590,10 @@ Modules - reusable parts of our design
   }
 
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 770px) {
   .cd-timeline-content {
-    margin-left: -125px;
-    margin-right: -125px;
+    margin-left: -150px;
+    margin-right: -150px;
     padding: 1.6em;
     width: 60%;
       padding-top: 35px;
@@ -628,7 +628,7 @@ Modules - reusable parts of our design
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 770px) {
   /* inverse bounce effect on even content blocks */
   .cssanimations .cd-timeline-block:nth-child(even) .cd-timeline-content.bounce-in {
     -webkit-animation: cd-bounce-2-inverse 0.6s;
@@ -739,30 +739,61 @@ Modules - reusable parts of our design
   }
 }
 /*kastuli*/
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 770px) {
     .cd-block-2 {
         width: 100%; position: absolute; top: 342px
     }
-
+  .cd-block-2 .cd-timeline-content{
+    top: -122px;
+  }
+  .cd-block-2 .cd-timeline-content::before{
+    top: 146px;
+  }
     .cd-block-3 {
         top: 76px;
     }
-
+  .cd-block-3 .cd-timeline-content{
+    top: -75px;
+  }
+  .cd-block-3 .cd-timeline-content::before{
+    top: 100px;
+  }
     .cd-block-4 {
         top: 13px;
     }
-
+  .cd-block-4 .cd-timeline-content{
+    top: -152px;
+  }
+  .cd-block-4 .cd-timeline-content::before{
+    top: 173px;
+  }
     .cd-block-5 {
         top: 228px;
     }
-
+  .cd-block-5 .cd-timeline-content{
+    top: -150px
+  }
+  .cd-block-5 .cd-timeline-content::before{
+    top: 172px;
+  }
     .cd-block-6 {
-        top: 115px;
+      top: 66px;
     }
-
+  .cd-block-6 .cd-timeline-content{
+    top: -195px
+  }
+  .cd-block-6 .cd-timeline-content::before{
+    top: 221px;
+  }
     .cd-block-7 {
-        top: 329px;
+        top: 279px;
     }
+  .cd-block-7 .cd-timeline-content{
+    top: -118px;
+  }
+  .cd-block-7 .cd-timeline-content::before{
+    top: 143px;
+  }
     .cd-timeline-img::before {
         /* this is the vertical line */
         content: '';
