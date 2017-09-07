@@ -1,0 +1,46 @@
+<svg width="80" height="81" viewBox="0 0 80 81" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Group</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-372 -11470)">
+<g id="Group">
+<g id="Ellipse 6" filter="url(#filter0_d)">
+<use xlink:href="#path0_fill" transform="translate(382 11477.5)" fill="#07DA91"/>
+<mask id="mask0_outline_ins">
+<use xlink:href="#path0_fill" fill="white" transform="translate(382 11477.5)"/>
+</mask>
+<g mask="url(#mask0_outline_ins)">
+<use xlink:href="#path1_stroke_2x" transform="translate(382 11477.5)" fill="#07DA91"/>
+</g>
+</g>
+<g id="instagram-logo (1)">
+<g id="Group">
+<g id="Vector">
+<use xlink:href="#path2_fill" transform="translate(397.218 11492.7)" fill="#FFFFFF"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path3_fill" transform="translate(404.382 11499.9)" fill="#FFFFFF"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path4_fill" transform="translate(418.013 11497.7)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<filter id="filter0_d" filterUnits="userSpaceOnUse" x="372" y="11470" width="80" height="81" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 0"/>
+<feOffset dx="0" dy="3"/>
+<feGaussianBlur stdDeviation="5"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.05 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
+<path id="path0_fill" d="M 60 30C 60 46.5685 46.5685 60 30 60C 13.4315 60 0 46.5685 0 30C 0 13.4315 13.4315 0 30 0C 46.5685 0 60 13.4315 60 30Z"/>
+<path id="path1_stroke_2x" d="M 59 30C 59 46.0163 46.0163 59 30 59L 30 61C 47.1208 61 61 47.1208 61 30L 59 30ZM 30 59C 13.9837 59 1 46.0163 1 30L -1 30C -1 47.1208 12.8792 61 30 61L 30 59ZM 1 30C 1 13.9837 13.9837 1 30 1L 30 -1C 12.8792 -1 -1 12.8792 -1 30L 1 30ZM 30 1C 46.0163 1 59 13.9837 59 30L 61 30C 61 12.8792 47.1208 -1 30 -1L 30 1Z"/>
+<path id="path2_fill" d="M 21.4046 0L 8.15818 0C 3.65976 0 0 3.65994 0 8.15835L 0 21.4048C 0 25.9034 3.65976 29.5631 8.15818 29.5631L 21.4046 29.5631C 25.9034 29.5631 29.5631 25.9032 29.5631 21.4048L 29.5631 8.15835C 29.5633 3.65994 25.9034 0 21.4046 0ZM 26.9403 21.4048C 26.9403 24.4571 24.4571 26.9401 21.4048 26.9401L 8.15818 26.9401C 5.10608 26.9403 2.62298 24.4571 2.62298 21.4048L 2.62298 8.15835C 2.62298 5.10625 5.10608 2.62298 8.15818 2.62298L 21.4046 2.62298C 24.4569 2.62298 26.9401 5.10625 26.9401 8.15835L 26.9401 21.4048L 26.9403 21.4048Z"/>
+<path id="path3_fill" d="M 7.61767 2.13459e-07C 3.41722 2.13459e-07 -2.61487e-07 3.41722 -2.61487e-07 7.61767C -2.61487e-07 11.8179 3.41722 15.235 7.61767 15.235C 11.8181 15.235 15.2353 11.8179 15.2353 7.61767C 15.2353 3.41722 11.8181 2.13459e-07 7.61767 2.13459e-07ZM 7.61767 12.6118C 4.86371 12.6118 2.62298 10.3715 2.62298 7.61749C 2.62298 4.86336 4.86354 2.62281 7.61767 2.62281C 10.3718 2.62281 12.6124 4.86336 12.6124 7.61749C 12.6124 10.3715 10.3716 12.6118 7.61767 12.6118Z"/>
+<path id="path4_fill" d="M 1.92352 -9.60565e-08C 1.41816 -9.60565e-08 0.921717 0.204593 0.564816 0.563067C 0.206167 0.919793 -4.16245e-07 1.41641 -4.16245e-07 1.92352C -4.16245e-07 2.42906 0.206342 2.9255 0.564816 3.28398C 0.921542 3.6407 1.41816 3.84704 1.92352 3.84704C 2.43063 3.84704 2.9255 3.6407 3.28398 3.28398C 3.64245 2.9255 3.84704 2.42888 3.84704 1.92352C 3.84704 1.41641 3.64245 0.919793 3.28398 0.563067C 2.92725 0.204593 2.43063 -9.60565e-08 1.92352 -9.60565e-08Z"/>
+</defs>
+</svg>
