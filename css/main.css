@@ -873,8 +873,8 @@ footer img {
 
 
 /*---SOCIAL---*/
-.fb-social{
-    background: url(img/facebook.svg);
+.fb-social:hover{
+    background: url(/img/fb-color.svg);
     background-size: cover;
 
 }

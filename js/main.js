@@ -73,4 +73,32 @@ $( ".cd-block-7 .cd-timeline-content" )
         $(".cd-block-5 .cd-timeline-img img").attr('src','img/num5.svg')
         $(".cd-block-6 .cd-timeline-img img").attr('src','img/num6.svg')
     });
+$( ".fb-social" )
+    .mouseenter(function() {
+        $(".fb-social img").attr('src', 'img/fb-color.svg')
+    })
+            .mouseleave(function() {
+                $(".fb-social img").attr('src', 'img/facebook.svg')
+});
 
+$( ".tw-social" )
+    .mouseenter(function() {
+        $(".tw-social img").attr('src', 'img/twitter-color.svg')
+    })
+    .mouseleave(function() {
+        $(".tw-social img").attr('src', 'img/twitter.svg')
+    });
+$( ".in-social" )
+    .mouseenter(function() {
+        $(".in-social img").attr('src', 'img/insta-color.svg')
+    })
+    .mouseleave(function() {
+        $(".in-social img").attr('src', 'img/insta.svg')
+    });
+$( ".tg-social" )
+    .mouseenter(function() {
+        $(".tg-social img").attr('src', 'img/telegram-color.svg')
+    })
+    .mouseleave(function() {
+        $(".tg-social img").attr('src', 'img/telegram.svg')
+    });
