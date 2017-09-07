@@ -291,6 +291,96 @@ section {
 .card .header p {
   display: inline-block;
 }
+
+
+/*-------------------------------------------------------------*/
+/* Bonus section*/
+.bonus .row{
+  margin-top: 45px;
+}
+.bonus .title{
+  margin-bottom: 10px;
+}
+.bonTable h5{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 18px;
+  text-align: right;
+  color: #696969;
+  padding: 4px 4px;
+  padding-bottom: 10px;
+  height:50px;
+}
+.bonTable h5 span{
+  color:#07DA91;
+}
+.bonTable .col-6:nth-child(2) p{
+  padding: 2px 17px 1px 0;
+  text-align: right;
+  color: snow;
+  margin-bottom: 0;
+  font-weight: 400;
+}
+.bonTable .col-6:nth-child(1) h5{
+  margin-bottom: 14px;
+}
+.bonTable .col-6:nth-child(1) p{
+  padding: 2px 20px 1px 0;
+  text-align: right;
+  margin-bottom: 0;
+  font-weight: 500;
+  color: #181818;
+}
+.bonTable .col-6:nth-child(2) p span {
+  color: rgba(255,255,255,0.6);
+}
+.bonTabBg{
+  height:100%;
+  width: 85%;
+  background: linear-gradient(180deg, #1DFCAF 0%, #07DA91 100%);
+  border-radius: 5px;
+  float: right;
+  padding: 5px 0;
+}
+@media (max-width: 768px) and (min-width: 576px){
+  .bonTabBg{
+    width: 140%;
+    margin-right: -40px;
+  }
+}
+@media (max-width: 576px){
+  .bonTabBg{
+    width: auto;
+    padding: 5px 5px 5px 20px;
+  }
+}
+@media (min-width: 768px){
+  .col-lg-5:nth-child(2){
+    margin-left: 6%;
+  }
+  .bonTabBg {
+    width: 120px;
+  }
+}
+.bonus .justify-content-around {
+  margin-top: 100px;
+  padding-top: 20px;
+  border-top: 1px solid #D6D6D6;
+}
+
+/* Road map of project*/
+
+
+
+
+
+
+
+/*------------------------------------------------------------*/
+
+
 /* Team */
 
 .col-content {
