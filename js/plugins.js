@@ -33,8 +33,21 @@ var x = setInterval(function() {
   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-  $('.days').html(days)
-  $('.minutes').html(minutes)
-  $('.hours').html(hours)
-  $('.seconds').html(seconds)
+if (days.toString().length == 1) {
+            $('.days').html('0'+days)
+        }    
+  else{$('.days').html(days)}
+if (minutes.toString().length == 1) {
+            $('.minutes').html('0'+minutes)
+        }
+    else{  $('.minutes').html(minutes)}
+if (hours.toString().length == 1) {
+            $('.hours').html('0'+hours)
+        }
+    else{$('.hours').html(hours)}
+    
+if (seconds.toString().length == 1) {
+            $('.seconds').html('0'+seconds)
+        }
+    else{$('.seconds').html(seconds)}
 })

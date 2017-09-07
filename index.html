@@ -24,26 +24,33 @@
   <header>
     <div class="overlay">
       <nav class="navbar container navbar-expand-lg bg-transparent align-items-sm-start align-items-lg-center">
-        <div class="col-md-4 col-xs-6">
+        <div class="col-md-4 col-6">
           <a href="#">
           <img class="logo" src="img/logo.svg" alt="">
         </a>
         </div>
-        <div class=" col-sm-6 col-md-4 d-flex flex-sm-column flex-lg-row justify-content-center">
+        <div class="col-6 d-flex visibile-sm flex-column flex-lg-row justify-content-end">
           <button class="navbar-toggler text-center" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"><i class="material-icons">menu</i></span>
         </button>
-          <div class="collapse navbar-collapse text-center" id="navbarNavAltMarkup">
+          </div>
+          <div class="collapse col-12 col-lg-4 navbar-collapse text-center" id="navbarNavAltMarkup">
             <div class="navbar-nav">
               <a class="nav-item nav-link active" href="#about">Тонкости</a>
               <a class="nav-item nav-link" href="#advantages">Оборудование</a>
               <a class="nav-item nav-link" href="#roadmap">FAQ</a>
               <a class="nav-item nav-link" href="#details">Гарантии</a>
+              
+               <div class="d-flex justify-content-center justify-content-lg-end visibile-sm social">
+            <div><a href="#"><img src="img/facebook.svg" alt=""></a></div>
+            <div><a href="#"><img src="img/insta.svg" alt=""></a></div>
+            <div><a href="#"><img src="img/twitter.svg" alt=""></a></div>
+            <div><a href="#"><img src="img/telegram.svg" alt=""></a></div>
+          </div>
             </div>
           </div>
-        </div>
-        <div class="col-sm-12 col-md-4">
-          <div class="d-flex justify-content-sm-center justify-content-lg-end">
+        <div class="col-12 col-md-4">
+          <div class="d-flex visibile-lg justify-content-center justify-content-lg-end social">
             <div><a href="#"><img src="img/facebook.svg" alt=""></a></div>
             <div><a href="#"><img src="img/insta.svg" alt=""></a></div>
             <div><a href="#"><img src="img/twitter.svg" alt=""></a></div>
@@ -56,14 +63,15 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-6 d-flex flex-column justify-content-end">
-            <h2 class="title text-center">Первая майнинг-ферма, в которую
+            <h2 class="title">Первая майнинг-ферма, в которую
 может инвестировать каждый</h2>
             <p class="text">Добывай криптовалюту вместе с нами и зарабатывай 35% от вложений каждый месяц. За 3 месяца валюта вырастет на 300%. Старт выплаты дивидендов — через 3 месяца.</p>
           </div>
           <div class="col-lg-6 text-center">
             <div class="clock-block">
               <p class="text text-center">До старта pre-ICO осталось:</p>
-              <div id="clockdiv">
+      <div id="clockdiv" class="row justify-content-center">
+               <div class="col-md-5 d-flex justify-content-center align-items-center">
                 <div>
                   <span class="days"></span>
                   <div class="smalltext">Дней</div>
@@ -75,9 +83,11 @@
                   <span class="hours"></span>
                   <div class="smalltext">Часов</div>
                 </div>
-                <div class="dots">
+                  </div>
+                  <div class="dots col-1 d-flex align-items-center visibile-lg">
                   <span>:</span>
                 </div>
+                  <div class="col-md-5 d-flex justify-content-center">
                 <div>
                   <span class="minutes"></span>
                   <div class="smalltext">Минут</div>
@@ -89,8 +99,9 @@
                   <span class="seconds"></span>
                   <div class="smalltext">Секунд</div>
                 </div>
+                  </div>
               </div>
-              <button class="btn btn-default" type="button" name="button">Рассчитать прибыль вложений</button>
+              <button class="btn btn-default" type="button" name="button">Рассчитать прибыль</button>
             </div>
           </div>
         </div>
@@ -104,7 +115,7 @@
     <iframe width="60%" height="415" src="https://www.youtube.com/embed/WD63wCGJH7Y" frameborder="0" allowfullscreen></iframe>
   </section>
 
-  <section class="bg-white">
+  <section id="section_3" class="bg-white">
     <div class="container">
       <div class="row">
         <div class="col-lg-6 d-flex flex-column justify-content-center">
@@ -122,10 +133,10 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-6 d-flex flex-column justify-content-center">
-          <div class="card">
+          <div class="card mt-md-5">
             <div class="card-body text-center">
               <img src="img/conversion.svg" alt="">
-              <p class="text text-center">ежемесячная прибыль проекта</p>
+              <p class="text text-center mb-0 mt-5">ежемесячная прибыль проекта</p>
             </div>
           </div>
         </div>
@@ -145,16 +156,22 @@
         <div class="card w-100">
           <div class="card-body d-flex justify-content-center">
             <div>
-              <div class="text d-flex align-items-center exchange-bar">
+              <div class="text row exchange-bar align-items-center">
+               <div class="col-lg-5 col-md-6 col-12 d-flex justify-content-start align-items-center">
                 <div class="text">Введите сумму:</div>
                 <input type="text" class="input input-number" placeholder="280" />
                 <div class="text"><b>ETH</b></div>
-                <div class="text">или</div>
+               </div>
+                  <div class="col-md-2 col-4 text-center"><div class="text"><span>или</span></div></div>
+                 <div class="col-md-3 col-8 d-flex justify-content-start align-items-center">
                 <input type="text" class="input input-number" placeholder="1.0" />
-                <div class="text"><b>$</b></div>
-                <div class="text">=</div>
+                <div class="text"><b><span>$</span></b></div>
+                </div>
+                  <div class="col-1"><div class="text">=</div></div>
+                <div class="col-lg-1 col-11 d-flex justify-content-start align-items-center">
                 <input type="text" class="input input-number" placeholder="100" />
                 <div class="text"><b>TRH</b></div>
+                </div>
               </div>
               <table class="table w-75">
                 <tbody>
@@ -187,29 +204,29 @@
     </div>
   </section>
 
-  <section class="bg-white">
-    <div class="container">
-      <div class="row">
+  <div class="bg-white">
+    <div class="container border-top">
+      <div class="row pt-md-5">
         <div class="col-lg-6 d-flex flex-column justify-content-center">
           <h2 class="title">Новая модель майнинга</h2>
           <h4 class="number">01</h4>
           <p class="text">Наш токен взят не из воздуха. Один TerraMining (TRH) = 1 Мегахэш в секунду (Mh/s) мощности майнинг-фермы. Валюта подкреплена реальным оборудованием с реальной стоимостью и мощностью, а не виртуальными обещаниями.</p>
         </div>
         <div class="col-lg-6">
-          <img src="img/model_mining1.png" alt="">
+          <img src="img/model_mining1.png" class="img-right" alt="">
         </div>
       </div>
     </div>
-  </section>
+  </div>
 
   <section class="bg-white">
     <div class="container">
       <div class="row">
-        <div class="col-lg-6">
-          <img src="img/model_mining2.png" class="w-100" alt="">
+        <div class="col-lg-6 order-2 order-lg-1">
+          <img src="img/model_mining2.png" class="img-left" alt="">
         </div>
-        <div class="col-lg-6 d-flex flex-column justify-content-center">
-          <h4 class="number">02</h4>
+        <div class="col-lg-6 order-1 order-lg-2 d-flex pt-md-5 flex-column border-top justify-content-center">
+          <h4 class="number mt-4">02</h4>
           <p class="text">Теперь вам не надо майнить самостоятельно. Вы превращаетесь из шахтера в инвестора, который вкладывает в развитие одной мощной фермы. Пора продать домашние фермы и быть среди первых майнинговых криптоинвесторов.
           </p>
         </div>
@@ -220,13 +237,13 @@
   <section class="bg-white">
     <div class="container">
       <div class="row">
-        <div class="col-lg-6 d-flex flex-column justify-content-center">
-          <h4 class="number">03</h4>
+        <div class="col-lg-6 d-flex flex-column border-top justify-content-center">
+          <h4 class="number mt-4">03</h4>
           <p class="text">Мы все сделаем за вас. Закупим мощнейшие чипы A4+ от Innosilicon Tech, которые дают мощность 4 mh/s при охлаждении в маслянных ваннах. Платы под чипы для нас изготовит завод J&WIPC Tech. Также на этом заводе будет протестировано все наше майнинг-оборудование.
           </p>
         </div>
         <div class="col-lg-6">
-          <img src="img/model_mining3.png" alt="">
+          <img src="img/model_mining3.png" class="img-right" alt="">
         </div>
       </div>
     </div>
@@ -241,21 +258,21 @@
           <img src="img/col-1.svg" alt="">
           <p class="text text-border"><b class="number">300$</b> в месяц</p>
           <p class="text">Окупаемость</p>
-          <h4>10 месяцев</h6>
+          <h4>10 месяцев</h4>
         </div>
         <div class="col-md-4">
           <h4>Облачный майнинг</h4>
           <img src="img/col-2.svg" alt="">
           <p class="text text-border"><b class="number">430$</b> в месяц</p>
           <p class="text">Окупаемость</p>
-          <h4>7 месяцев</h6>
+          <h4>7 месяцев</h4>
         </div>
         <div class="col-md-4">
           <h4>Майнинг TerraMining</h4>
           <img src="img/col-3.svg" alt="">
           <p class="text text-border"><b class="number">1000$</b> в месяц</p>
           <p class="text">Окупаемость</p>
-          <h4>3 месяцев</h6>
+          <h4>3 месяцев</h4>
         </div>
       </div>
     </div>
@@ -269,7 +286,7 @@
             <p class="text text-left">Чем дальше от pre-ICO, тем токен будет дороже</p>
             <p class="text text-right float-right">Всего токенов: 3 024 000 TRH</p>
           </div>
-          <div class="card-body">
+          <div class="card-body pb-5">
               <div class="row">
               <div class="col-md-4 d-flex flex-column justify-content-end">
                 <h2 class="title">PRE-ICO</h2>
@@ -280,14 +297,16 @@
               <div class="col-md-4 d-flex flex-column justify-content-end">
                 <h2 class="title">PRE-ICO</h2>
                 <img src="img/ico2.svg" class="w-100" alt="">
-                <p class="text">Рост TRH через 90 дней
-после pre-ICO: 275%</p>
+                <p class="text">Рост TRH через 90 дней 
+после ICO: 160%</p>
               </div>
               <div class="col-md-4 d-flex flex-column justify-content-end">
                 <h2 class="title">PRE-ICO</h2>
                 <img src="img/ico3.svg" class="w-100" alt="">
-                <p class="text">Рост TRH через 90 дней
-после pre-ICO: 275%</p>
+                <p class="text">После этих трех этапов выпуск 
+токенов закончится. Это значит, 
+что цена на него не обвалится 
+и не будет инфляции.</p>
               </div>
             </div>
         </div>
@@ -316,7 +335,7 @@
               Modernes Managment.
               Delegation von Veranrwortung.
             </p>
-          <div><a href="#"><img src="img/telegram.svg" alt=""></a></div>
+          <div class="social"><a href="#"><img src="img/telegram.svg" alt=""></a></div>
         </div>
       </div>
         <div class="col-lg-3 col-md-6 col-sm-12">
@@ -332,7 +351,7 @@
               программного обеспечения
               и схем электронных устройств.
             </p>
-            <div class="d-flex justify-content-start">
+            <div class="d-flex justify-content-start social">
               <div><a href="#"><img src="img/facebook.svg" alt=""></a></div>
               <div><a href="#"><img src="img/insta.svg" alt=""></a></div>
               <div><a href="#"><img src="img/telegram.svg" alt=""></a></div>
@@ -353,7 +372,7 @@
               ТГУ ИМФИ — Математик, Aptech.
               Database specialist.
             </p>
-            <div class="d-flex justify-content-start">
+            <div class="d-flex justify-content-start social">
               <div><a href="#"><img src="img/facebook.svg" alt=""></a></div>
               <div><a href="#"><img src="img/insta.svg" alt=""></a></div>
               <div><a href="#"><img src="img/twitter.svg" alt=""></a></div>
@@ -371,7 +390,7 @@
 Управлял 6 образовательными
 проектами.
             </p>
-            <div class="d-flex justify-content-start">
+            <div class="d-flex justify-content-start social">
               <div><a href="#"><img src="img/facebook.svg" alt=""></a></div>
               <div><a href="#"><img src="img/twitter.svg" alt=""></a></div>
               <div><a href="#"><img src="img/telegram.svg" alt=""></a></div>
@@ -383,7 +402,7 @@
   </section>
 
   <!-- Цыкл заработка -->
-  <section class="team bg-white">
+  <section class="bg-white">
     <div class="container border-top">
       <div class="row">
         <div class="col-md-9">
@@ -394,7 +413,7 @@
 на бирже, что повысит их стоимость.</p>
         </div>
         <div class="col-md-12">
-          <img src="img/grafic.svg" class="w-100" alt="">
+          <img id="grafic" src="img/grafic.svg" class="w-100" alt="">
         </div>
       </div>
     </div>
@@ -425,33 +444,37 @@
     <h1 class="title">Примите участие в проекте</h1>
     <div class="clock-block">
       <p class="text text-center">До старта pre-ICO осталось:</p>
-      <div id="clockdiv">
-        <div>
-          <span class="days"></span>
-          <div class="smalltext">Дней</div>
-        </div>
-        <div class="dots">
-          <span>:</span>
-        </div>
-        <div>
-          <span class="hours"></span>
-          <div class="smalltext">Часов</div>
-        </div>
-        <div class="dots">
-          <span>:</span>
-        </div>
-        <div>
-          <span class="minutes"></span>
-          <div class="smalltext">Минут</div>
-        </div>
-        <div class="dots">
-          <span>:</span>
-        </div>
-        <div>
-          <span class="seconds"></span>
-          <div class="smalltext">Секунд</div>
-        </div>
-      </div>
+       <div id="clockdiv" class="row w-50 justify-content-center">
+               <div class="col-md-5 d-flex justify-content-center">
+                <div>
+                  <span class="days"></span>
+                  <div class="smalltext">Дней</div>
+                </div>
+                <div class="dots">
+                  <span>:</span>
+                </div>
+                <div>
+                  <span class="hours"></span>
+                  <div class="smalltext">Часов</div>
+                </div>
+                  </div>
+                  <div class="dots d-flex align-items-center visibile-lg">
+                  <span>:</span>
+                </div>
+                  <div class="col-md-5 d-flex justify-content-center">
+                <div>
+                  <span class="minutes"></span>
+                  <div class="smalltext">Минут</div>
+                </div>
+                <div class="dots">
+                  <span>:</span>
+                </div>
+                <div>
+                  <span class="seconds"></span>
+                  <div class="smalltext">Секунд</div>
+                </div>
+                  </div>
+              </div>
       <div>
       <button class="btn btn-default" type="button" name="button">Рассчитать прибыль вложений</button>
     </div>
@@ -465,15 +488,16 @@
     </section>
 
     <footer>
-      <div class="d-flex justify-content-center py-5 bg-white">
+      <div class="d-flex justify-content-center py-5 social-footer bg-white">
         <div><a href="#"><img src="img/facebook.svg" alt=""></a></div>
         <div><a href="#"><img src="img/insta.svg" alt=""></a></div>
         <div><a href="#"><img src="img/twitter.svg" alt=""></a></div>
+        <div><a href="#"><img src="img/telegram.svg" alt=""></a></div>
         <div><a href="#"><img src="img/support.svg" alt=""></a></div>
       </div>
       <div class="copyright container">
         <p class="d-inline-block text">© 2017 TerraMining, Политика конфиденциальности</p>
-        <p class="d-inline-block text float-right">feedback@terrahash.io</p>
+        <p class="d-inline-block text float-md-right">feedback@terrahash.io</p>
       </div>
     </footer>
 
@@ -481,7 +505,7 @@
   <script>
     window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')
   </script>
-  <script src="js/plugins.min.js"></script>
+  <script src="js/plugins.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/wow.min.js"></script>

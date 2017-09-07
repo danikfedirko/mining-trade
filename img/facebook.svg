@@ -1,25 +1,25 @@
-<svg width="55" height="55" viewBox="0 0 55 55" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="80" height="81" viewBox="0 0 80 81" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <title>Group</title>
 <desc>Created using Figma</desc>
-<g id="Canvas" transform="translate(-944 310)">
+<g id="Canvas" transform="translate(-262 -11470)">
 <g id="Group">
 <g id="Ellipse 6" filter="url(#filter0_d)">
 <mask id="mask0_outline_ins">
-<use xlink:href="#path0_fill" fill="white" transform="translate(954.708 -302.373)"/>
+<use xlink:href="#path0_fill" fill="white" transform="translate(272 11477.5)"/>
 </mask>
 <g mask="url(#mask0_outline_ins)">
-<use xlink:href="#path1_stroke_2x" transform="translate(954.708 -302.373)" fill="#07DA91"/>
+<use xlink:href="#path1_stroke_2x" transform="translate(272 11477.5)" fill="#07DA91"/>
 </g>
 </g>
 <g id="Group">
 <g id="Vector">
-<use xlink:href="#path2_fill" transform="translate(968.154 -291.945)" fill="#07DA91"/>
+<use xlink:href="#path2_fill" transform="translate(295.73 11495.9)" fill="#07DA91"/>
 </g>
 </g>
 </g>
 </g>
 <defs>
-<filter id="filter0_d" filterUnits="userSpaceOnUse" x="944" y="-310" width="55" height="55" color-interpolation-filters="sRGB">
+<filter id="filter0_d" filterUnits="userSpaceOnUse" x="262" y="11470" width="80" height="81" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 0"/>
 <feOffset dx="0" dy="3"/>
@@ -28,8 +28,8 @@
 <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
 <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
 </filter>
-<path id="path0_fill" d="M 34 17C 34 26.3888 26.3888 34 17 34C 7.61116 34 0 26.3888 0 17C 0 7.61116 7.61116 0 17 0C 26.3888 0 34 7.61116 34 17Z"/>
-<path id="path1_stroke_2x" d="M 33 17C 33 25.8366 25.8366 33 17 33L 17 35C 26.9411 35 35 26.9411 35 17L 33 17ZM 17 33C 8.16344 33 1 25.8366 1 17L -1 17C -1 26.9411 7.05887 35 17 35L 17 33ZM 1 17C 1 8.16344 8.16344 1 17 1L 17 -1C 7.05887 -1 -1 7.05887 -1 17L 1 17ZM 17 1C 25.8366 1 33 8.16344 33 17L 35 17C 35 7.05887 26.9411 -1 17 -1L 17 1Z"/>
-<path id="path2_fill" d="M 6.83852 0.00273475L 5.13409 0C 3.21921 0 1.98174 1.26961 1.98174 3.23467L 1.98174 4.72606L 0.268006 4.72606C 0.119919 4.72606 -4.59019e-08 4.84612 -4.59019e-08 4.9942L -4.59019e-08 7.15507C -4.59019e-08 7.30316 0.120056 7.42307 0.268006 7.42307L 1.98174 7.42307L 1.98174 12.8756C 1.98174 13.0237 2.10166 13.1436 2.24974 13.1436L 4.48568 13.1436C 4.63376 13.1436 4.75368 13.0236 4.75368 12.8756L 4.75368 7.42307L 6.75744 7.42307C 6.90552 7.42307 7.02544 7.30316 7.02544 7.15507L 7.02626 4.9942C 7.02626 4.9231 6.99796 4.85501 6.94777 4.80469C 6.89759 4.75437 6.82922 4.72606 6.75812 4.72606L 4.75368 4.72606L 4.75368 3.46179C 4.75368 2.85412 4.89849 2.54564 5.69006 2.54564L 6.83825 2.54523C 6.9862 2.54523 7.10612 2.42518 7.10612 2.27723L 7.10612 0.27074C 7.10612 0.122927 6.98633 0.00300823 6.83852 0.00273475Z"/>
+<path id="path0_fill" d="M 60 30C 60 46.5685 46.5685 60 30 60C 13.4315 60 0 46.5685 0 30C 0 13.4315 13.4315 0 30 0C 46.5685 0 60 13.4315 60 30Z"/>
+<path id="path1_stroke_2x" d="M 59 30C 59 46.0163 46.0163 59 30 59L 30 61C 47.1208 61 61 47.1208 61 30L 59 30ZM 30 59C 13.9837 59 1 46.0163 1 30L -1 30C -1 47.1208 12.8792 61 30 61L 30 59ZM 1 30C 1 13.9837 13.9837 1 30 1L 30 -1C 12.8792 -1 -1 12.8792 -1 30L 1 30ZM 30 1C 46.0163 1 59 13.9837 59 30L 61 30C 61 12.8792 47.1208 -1 30 -1L 30 1Z"/>
+<path id="path2_fill" d="M 12.068 0.00482603L 9.06015 0C 5.68096 0 3.49718 2.24049 3.49718 5.70823L 3.49718 8.34011L 0.472951 8.34011C 0.211622 8.34011 -8.10034e-08 8.55197 -8.10034e-08 8.8133L -8.10034e-08 12.6266C -8.10034e-08 12.8879 0.211863 13.0995 0.472951 13.0995L 3.49718 13.0995L 3.49718 22.7217C 3.49718 22.983 3.70881 23.1946 3.97014 23.1946L 7.9159 23.1946C 8.17723 23.1946 8.38885 22.9828 8.38885 22.7217L 8.38885 13.0995L 11.9249 13.0995C 12.1862 13.0995 12.3978 12.8879 12.3978 12.6266L 12.3993 8.8133C 12.3993 8.68783 12.3493 8.56766 12.2608 8.47886C 12.1722 8.39006 12.0516 8.34011 11.9261 8.34011L 8.38885 8.34011L 8.38885 6.10903C 8.38885 5.03669 8.64439 4.49231 10.0413 4.49231L 12.0675 4.49159C 12.3286 4.49159 12.5402 4.27973 12.5402 4.01864L 12.5402 0.477777C 12.5402 0.21693 12.3288 0.00530864 12.068 0.00482603Z"/>
 </defs>
 </svg>
