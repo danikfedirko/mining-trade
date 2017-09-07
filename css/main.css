@@ -874,20 +874,11 @@ footer img {
 
 
 /*---SOCIAL---*/
-.social70{
-  height: 70px;
-  width: 70px;
-  border: #07DA91 1px solid;
-  padding-left: 24px;
+.fb-social{
+    background: url(img/facebook.svg);
+    background-size: cover;
+
 }
-.social70 i{
-  line-height: 70px;
-  font-size: 35px;
-  color:#07DA91;
-}
-
-
-
 /* ==========================================================================
    Media Queries
    ========================================================================== */
