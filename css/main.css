@@ -192,8 +192,11 @@ header .btn-default {
   border-radius: 5px;
   font-size: 1.5em;
   padding: 1rem;
+transition: all 0.3s
 }
-
+.btn-default:hover{
+   background-color: #37dea4;  
+}
 
 /* About section */
 
@@ -862,7 +865,10 @@ form .btn {
 footer img {
   width: 90px !important;
 }
-
+.social-footer img:hover{
+    transform: scale(1.1);
+    transition: all 0.3s
+}
 .copyright {
   color: #696969
 }
