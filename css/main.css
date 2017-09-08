@@ -321,7 +321,7 @@ section {
 .bonTable .col-6:nth-child(2) p{
   padding: 2px 17px 1px 0;
   text-align: right;
-  color: snow;
+  color: #181818;
   margin-bottom: 0;
   font-weight: 400;
 }
@@ -336,7 +336,7 @@ section {
   color: #181818;
 }
 .bonTable .col-6:nth-child(2) p span {
-  color: rgba(255,255,255,0.6);
+  color: rgba(0,0,0,0.5);
 }
 .bonTabBg{
   height:100%;
