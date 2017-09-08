@@ -195,7 +195,8 @@ header .btn-default {
 transition: all 0.3s
 }
 .btn-default:hover{
-   background-color: #37dea4;  
+   background-color: #37dea4;
+    color: #212529 !important
 }
 
 /* About section */
@@ -228,6 +229,7 @@ section {
   height: 1.5em;
   border: 2px solid #E6F7FF;
   padding: 0 5px;
+  background: #F5F9FB
 }
 
 .exchange-bar > div {
@@ -341,7 +343,7 @@ section {
 .bonTabBg{
   height:100%;
   width: 85%;
-  background: linear-gradient(180deg, #1DFCAF 0%, #07DA91 100%);
+ background: linear-gradient(180deg, #1DFCAF 0%, #00D5D5 100%);
   border-radius: 5px;
   float: right;
   padding: 5px 0;
@@ -854,7 +856,9 @@ input {
   padding-left: 5px;
   background-color: transparent;
 }
-
+input::placeholder{
+    color: #f2f2f2
+}
 form .btn {
   margin-left: 10px;
 }
