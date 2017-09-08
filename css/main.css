@@ -757,10 +757,10 @@ Modules - reusable parts of our design
     top: -122px;
   }
   .cd-block-2 .cd-timeline-content::before{
-    top: 146px;
+    top: 146px!important;
   }
     .cd-block-3 {
-        top: 76px;
+        top: 74px;
     }
   .cd-block-3 .cd-timeline-content{
     top: -75px;
@@ -769,16 +769,16 @@ Modules - reusable parts of our design
     top: 100px;
   }
     .cd-block-4 {
-        top: 13px;
+        top: 10px;
     }
   .cd-block-4 .cd-timeline-content{
     top: -152px;
   }
   .cd-block-4 .cd-timeline-content::before{
-    top: 173px;
+    top: 173px!important;
   }
     .cd-block-5 {
-        top: 228px;
+        top: 224px;
     }
   .cd-block-5 .cd-timeline-content{
     top: -150px
@@ -787,16 +787,16 @@ Modules - reusable parts of our design
     top: 172px;
   }
     .cd-block-6 {
-      top: 66px;
+      top: 59px;
     }
   .cd-block-6 .cd-timeline-content{
     top: -195px
   }
   .cd-block-6 .cd-timeline-content::before{
-    top: 221px;
+    top: 221px!important;
   }
     .cd-block-7 {
-        top: 279px;
+        top: 273px;
     }
   .cd-block-7 .cd-timeline-content{
     top: -118px;
@@ -809,9 +809,9 @@ Modules - reusable parts of our design
         content: '';
         position: absolute;
         top: 60px;
-        left: 30px;
+        left: 29px;
         height: 155px;
-        width: 1px;
+        width: 2px;
         background: #07DA91;
     }
 }
